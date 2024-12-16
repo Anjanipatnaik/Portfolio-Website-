@@ -1,0 +1,387 @@
+/* General Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #cfa9f7;
+    padding: 1rem 1.5rem;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 35px;
+    text-shadow: 1px 1px 1px rgb(77, 77, 77);
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+/* About Section */
+#about {
+    background-color: rgb(226, 191, 226);
+    padding: 4rem 0;
+}
+
+#about h2 {
+    color: #674188;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #827192;
+    text-align: center;
+    
+}
+
+#about .lead {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    font-family: "Poppins";
+    text-align: center;
+}
+#lead{
+    font-family: "Poppins,"sans-serif;
+    font-size: 40px;
+
+}
+#paragraph{
+    font-family: "Poppins";
+    font-size: 30px;
+    word-break: break-word;
+
+}
+#profile {
+    display: grid;
+    place-items: center;
+    transition: transform 0.8s;
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+#profile:hover {
+    transform: scale(0.9);
+}
+
+/* Skills Section */
+#skills {
+    background-color: #cfa9f7;
+    padding: 4rem 0;
+}
+
+#skills h2 {
+    color: black;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #827192;
+    text-align: center;
+}
+
+#skills .table {
+    background-color: #dfe6e9;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 1px #747176;
+}
+
+#skills .table th {
+    background-color: #3FA2F6;
+    color: #fff;
+    border: none;
+}
+
+#skills .table td {
+    border: none;
+    color: black;
+}
+
+#skills .table tbody tr:nth-child(even) {
+    background-color: #96C9F4;
+}
+
+/* Education Section */
+#education {
+    background: #D1E9F6;
+    padding: 4rem 0;
+}
+
+#education h2 {
+    color: #674188;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #827192;
+    text-align: center;
+}
+
+#education .table {
+    background-color: #cfa9f7;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 1px #baacc7;
+}
+
+#education .table th {
+    background-color: #7C00FE;
+    color: white;
+    border: none;
+}
+
+#education .table td {
+    border: none;
+    color: black;
+}
+
+#education .table tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+/* Projects Section */
+#projects {
+    background: #F6EACB;
+    padding: 4rem 0;
+}
+
+#projects h2 {
+    color: black;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #827192;
+    text-align: center;
+}
+
+#projects .card {
+    transition: transform 0.2s ease;
+    background: #e6b47e;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+#projects .card:hover {
+    transform: translateY(-10px);
+}
+
+#projects .card-body .card-title {
+    color: #3C2317;
+}
+
+#projects .btn {
+    background-color: #402b22;
+    color: white;
+}
+
+/* Certifications Section */
+#certifications {
+    background: #D1E9F6;
+    padding: 4rem 0;
+}
+
+#certifications h2 {
+    color: black;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #827192;
+    text-align: center;
+}
+
+#certifications .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    margin-bottom: 1.5rem;
+}
+
+#certifications .card:hover {
+    transform: translateY(-10px);
+}
+
+/* Interests Section */
+#interests {
+    background-color: #e0c8fa;
+    padding: 4rem 0;
+}
+
+#interests h2 {
+    color: black;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #827192;
+    text-align: center;
+}
+
+.interest-item {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.interest-item img {
+    max-width: 200px;
+    border: 3px solid black;
+    transition: transform 0.3s ease;
+}
+
+.interest-item h5 {
+    margin-top: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+.interest-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Contact Section */
+#contact {
+    background: #AEEFF0;
+    padding: 4rem 0;
+}
+
+.contact-center {
+    margin-left: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: black;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: #131935;
+    transform: translateY(-5px);
+}
+
+.form-control {
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+.btn-primary {
+    background-color: #cfa9f7;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    border: 2px solid black;
+}
+
+.btn-primary:hover {
+    background-color: #7C00FE;
+    color: black;
+}
+
+/* Footer */
+footer {
+    height: 20vh;
+    background-color: #4c1dbb;
+    margin-top: 0px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+/* Responsive Enhancements */
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 992px) {
+    #about h2, #skills h2, #education h2, #projects h2, #certifications h2, #interests h2 {
+        font-size: 40px;
+    }
+
+    .navbar-brand {
+        font-size: 28px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+
+    #profile {
+        width: 200px;
+        height: 200px;
+    }
+
+    .btn-primary {
+        width: 120px;
+        height: 50px;
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    .card-body .card-title {
+        font-size: 18px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    #about h2, #skills h2, #education h2, #projects h2, #certifications h2, #interests h2 {
+        font-size: 35px;
+    }
+
+    #profile {
+        width: 150px;
+        height: 150px;
+    }
+
+    .btn-primary {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+    }
+
+    .card-body .card-title {
+        font-size: 16px;
+    }
+}
+
+/* Extra small devices (portrait
